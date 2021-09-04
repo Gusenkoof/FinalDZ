@@ -48,7 +48,7 @@ public class AssignLeavePage extends BasePage{
 
         if (toDateForm.isDisplayed()){
             toDateForm.clear();
-            toDateForm.sendKeys("2021-09-20");
+            toDateForm.sendKeys("2021-10-20");
         } else {
             System.out.println("Форма To Date не отображается");
             System.exit(1);
@@ -63,6 +63,5 @@ public class AssignLeavePage extends BasePage{
 
         assignButton.pressEnter();
         confirmOkButton.click();
-
     }
 }
