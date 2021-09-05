@@ -138,7 +138,7 @@ public class OrangehrmliveTest extends BasePage{
             System.out.println("Возникла проблема при задании отпуска");
             System.exit(1);
         }
-        //Assertions.assert("Overlapping Leave Requests Found", assignLeavePage.assignLeaveText.getText(), "Отпуск не назначился");
+
     }
 
     @Severity(SeverityLevel.BLOCKER)
